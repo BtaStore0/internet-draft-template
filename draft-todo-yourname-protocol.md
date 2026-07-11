@@ -34,7 +34,7 @@ workgroup: WG Working Group
 keyword:
  - next generation
  - unicorn
- - sparkling distributed ledger
+ - AI-native
 venue:
   group: WG
   type: Working Group
