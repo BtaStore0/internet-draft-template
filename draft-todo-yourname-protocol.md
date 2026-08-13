@@ -62,7 +62,7 @@ TODO Abstract
 
 --- middle
 
-# Introduction
+# Introduction {#intro}
 
 TODO Introduction
 
@@ -72,12 +72,12 @@ TODO Introduction
 {::boilerplate bcp14-tagged}
 
 
-# Security Considerations
+# Security Considerations {#security}
 
 TODO Security
 
 
-# IANA Considerations
+# IANA Considerations {#iana}
 
 This document has no IANA actions.
 
