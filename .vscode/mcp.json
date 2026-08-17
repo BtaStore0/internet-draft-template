@@ -1,0 +1,24 @@
+{
+	"servers": {
+		"io.github.hostinger/hostinger-api-mcp": {
+			"type": "stdio",
+			"command": "npx",
+			"args": [
+				"hostinger-api-mcp@1.35.6"
+			],
+			"env": {
+				"HOSTINGER_API_TOKEN": "${input:HOSTINGER_API_TOKEN}"
+			},
+			"gallery": "https://api.mcp.github.com",
+			"version": "1.35.6"
+		}
+	},
+	"inputs": [
+		{
+			"id": "HOSTINGER_API_TOKEN",
+			"type": "promptString",
+			"description": "Hostinger API token. Optional — when unset, the server falls back to interactive OAuth sign-in.",
+			"password": true
+		}
+	]
+}
